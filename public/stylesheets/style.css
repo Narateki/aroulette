@@ -1,0 +1,172 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #007c91;
+  color: #999;
+  font: 100%/1.5em sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+
+.authForm {
+  margin: 150px auto;
+  width: 300px;
+}
+
+.authForm h1 {
+  background-color: #282830;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-fields {
+  margin: 0;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  position: relative;
+}
+
+.form-fields:before {
+  background-color: #fff;
+  content: "";
+  height: 8px;
+  left: 50%;
+  margin: -4px 0 0 -4px;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 8px;
+}
+
+.authForm input[type="text"],
+.authForm input[type="password"] {
+  border: 1px solid #dcdcdc;
+  padding: 12px 10px;
+  width: 238px;
+}
+
+.authForm input[type="text"] {
+  border-radius: 3px 3px 0 0;
+}
+
+.authForm input[type="password"] {
+  border-top: none;
+  border-radius: 0px 0px 3px 3px;
+}
+
+
+.authForm input[type="submit"] {
+  background: #00acc1;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 12px 20px;
+}
+
+.authForm input[type="submit"]:hover { background: #198d98; }
+
+.inputClass {
+  display: inline-block;
+}
+
+
+/* game */
+
+table {
+    color: white;
+}
+
+table td {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.circle {
+  height: 300px;
+  position: absolute;
+}
+
+
+.circleState {
+  height: 300px;
+  position: absolute;
+}
+
+.button {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 170px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+  vertical-align: middle;
+  background: #3a8dff;
+  color: black;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+/*
+@keyframes box {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(6000deg);}
+}
+
+@keyframes stoping {
+  to {transform: rotate(100deg);}
+}
+
+.rotate {
+  transform: rotate(0deg);
+}*/
